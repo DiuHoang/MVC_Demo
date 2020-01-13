@@ -1,0 +1,11 @@
+create database MVC
+
+create table User(
+	id int auto_increment primary key,
+	fullname varchar(50),
+	username varchar(20),
+	password varchar(10)	
+);
+
+insert into User values ('Hoang Thi Diu', 'Diu', 'diu');
+insert into User values ('Adminstrator', 'Admin', 'amin');
